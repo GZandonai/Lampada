@@ -1,0 +1,53 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-family:fantasy;
+    font-size: 50px;
+}
+main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+#TurnOn {
+    background-color:rgb(158, 158, 7);
+    font-size: 20px;
+    border-style:ridge ;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+#TurnOff {
+    background-color:rgb(13, 74, 187);
+    font-size: 20px;
+    border-style:ridge ;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#TradeLamp {
+    background-color:rgb(182, 176, 176);
+    font-size: 20px;
+    border-style:ridge ;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#TradeLamp:hover{
+    background-color:white;
+}
+
+#TurnOn:hover {
+    background-color:rgb(255, 255, 0);
+}
+
+#TurnOff:hover {
+    background-color: rgb(4, 4, 79);
+}
